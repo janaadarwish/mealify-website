@@ -1,0 +1,94 @@
+:root{
+    --gray:rgb(233, 231, 231);
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.navbar {
+    height: calc(8vh);
+    background-color: white;
+}
+.navbar .navbar-nav .nav-link{
+    color:rgba(0, 0, 0, 0.527);
+}
+.navbar .navbar-nav .nav-link.nav-link.active,
+.navbar .navbar-nav .nav-link.nav-link:focus,
+.navbar .navbar-nav .nav-link.nav-link:hover {
+    color: red
+}
+.landing{
+    min-height: calc(100vh);
+    background-color:var(--gray);
+}
+.header{
+    font-family: "Shadows Into Light Two", cursive;
+    color: rgba(0, 0, 0, 0.678);
+}
+.btn1{
+    background-color: red;
+    border-radius: 0 15px 15px 15px;
+    color: white;
+    font-size: small;
+    border:none;
+}
+.btn2{
+    background-color: transparent;
+    border: none;
+}
+.chefs{
+   min-height: calc(80vh);
+}
+
+.data{
+    background-color:var(--gray);
+    padding: 5px;
+    margin: 10px;
+}
+.inputsx{
+    width:calc(180vh);
+    padding: 8px;
+    margin: 20px;
+    font-size: small;
+    border-color: var(--gray);
+    border-radius: 2px;
+}
+.inputy{
+    margin-block-end: 20px;
+    width:calc(180vh);
+    padding: 10px;
+    font-size: small;
+    border-color: var(--gray);
+    border-radius: 2px;
+}
+.inputz{
+    width:calc(180vh);
+    padding: 10px;
+    font-size: small;
+    border-color: var(--gray);
+    border-radius: 2px;
+    height: 100px;
+}
+footer{
+    min-height: calc(30vh);
+    background-color: black;
+}
+.smallestp{
+    font-size: small;
+}
+.search{
+    width:350px;
+    border-radius: 20px;
+    border: none;
+}
+.list-unstyled li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+.social .fa-brands{
+    color: white;
+}
+
+.icon{
+    color: red;
+}
